@@ -10,9 +10,9 @@ Authentication and Authorization API
 
 ## Run
 
-**Development:** `java -jar build/libs/padlock-<VERSION>.jar dev.yml`
+**Development:** `./gradlew run`
 
-**Production:** `java -jar padlock-<VERSION>.jar <FILENAME>.yml`
+**Production:** `java -jar padlock-<VERSION>.jar <CONFIG>.yml`
 
 ## Use
 
