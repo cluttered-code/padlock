@@ -18,6 +18,7 @@ import java.util.Arrays;
 public final class PasswordHash {
 
     private static final Logger LOG = LoggerFactory.getLogger(PasswordHash.class);
+    private static final byte[] DEFAULT_SALT = generateSalt();
 
     private static final String ALGORITHM = "PBKDF2WithHmacSHA512";
     private static final int SALT_LENGTH = 80;
@@ -53,7 +54,7 @@ public final class PasswordHash {
     public static boolean validate(final String plaintext, final byte[] hash) {
         LOG.trace("validating password");
         final boolean isValidHash = hash != null && hash.length > 0;
-        final byte[] salt = isValidHash ? Arrays.copyOf(hash, SALT_LENGTH) : generateSalt();
+        final byte[] salt = isValidHash ? Arrays.copyOf(hash, SALT_LENGTH) : DEFAULT_SALT;
         final byte[] newHash = hash(plaintext, salt);
         final byte[] secureHash = isValidHash ? hash : newHash;
         final boolean hashesAreEqual = verboseEquals(newHash, secureHash);
