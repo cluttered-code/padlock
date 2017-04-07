@@ -1,0 +1,11 @@
+server:
+  port: 5050
+
+logging:
+  level: info
+
+database:
+  driverClassName: org.h2.Driver
+  jdbcUrl: jdbc:h2:./dev
+  username: sa
+  password: sa

@@ -1,0 +1,92 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.ratpack:ratpack-gradle:1.4.4"
+        classpath "com.github.jengelman.gradle.plugins:shadow:1.2.4"
+    }
+}
+
+if (!JavaVersion.current().java8Compatible) {
+    throw new IllegalStateException("Must be built with Java 8 or higher")
+}
+
+group 'com.ca.saas.weatherglass'
+version '1.0.0-SNAPSHOT'
+
+apply plugin: 'idea'
+apply plugin: "io.ratpack.ratpack-java"
+apply plugin: "com.github.johnrengelman.shadow"
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+
+mainClassName = 'com.cluttered.code.saas.padlock.PadlockServer'
+
+ext {
+    _gradleVersion = '3.3'
+
+    jdbiVersion = '2.78'
+    liquibaseVersion = '3.5.3'
+    liquibaseSlf4jVersion = '2.0.0'
+    log4jVersion = '2.8'
+    disruptorVersion = '3.3.6'
+
+    assertjVersion = '3.6.1'
+    jmockitVersion = '1.30'
+    junitVersion = '4.12'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile ratpack.dependency('h2') // Development Only
+    compile ratpack.dependency('hikari')
+
+    compile "org.liquibase:liquibase-core:${liquibaseVersion}"
+    compile "com.mattbertolini:liquibase-slf4j:${liquibaseSlf4jVersion}"
+
+    compile "org.jdbi:jdbi:${jdbiVersion}"
+
+    compile "org.apache.logging.log4j:log4j-api:${log4jVersion}"
+    compile "org.apache.logging.log4j:log4j-core:${log4jVersion}"
+    compile "org.apache.logging.log4j:log4j-slf4j-impl:${log4jVersion}"
+    compile "com.lmax:disruptor:${disruptorVersion}"
+
+    testCompile "org.assertj:assertj-core:${assertjVersion}"
+    testCompile "org.jmockit:jmockit:${jmockitVersion}"
+    testCompile("junit:junit:${junitVersion}") {
+        exclude group: 'org.hamcrest'
+    }
+}
+
+jar.enabled = false
+startScripts.dependsOn shadowJar
+
+shadowJar {
+    classifier = null
+    mergeServiceFiles()
+    exclude 'META-INF/*.SF'
+    exclude 'META-INF/*.DSA'
+    exclude 'META-INF/*.RSA'
+    dependencies {
+        exclude(dependency(':h2:'))
+    }
+    manifest {
+        attributes(
+                'Main-Class': mainClassName,
+                'version': project.version
+        )
+    }
+}
+
+run {
+    args 'dev.yml'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = _gradleVersion
+}

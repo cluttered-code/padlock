@@ -1,0 +1,342 @@
+2017-04-07T00:39:50,153 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - 
+.______      ___       _______   __        ______     ______  __  ___
+|   _  \    /   \     |       \ |  |      /  __  \   /      ||  |/  /
+|  |_)  |  /  ^  \    |  .--.  ||  |     |  |  |  | |  ,----'|  '  /
+|   ___/  /  /_\  \   |  |  |  ||  |     |  |  |  | |  |     |    <
+|  |     /  _____  \  |  '--'  ||  `----.|  `--'  | |  `----.|  .  \
+| _|    /__/     \__\ |_______/ |_______| \______/   \______||__|\__\
+
+2017-04-07T00:39:50,158 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - Config: dev.yml
+2017-04-07T00:39:50,257 [main] INFO  ratpack.server.RatpackServer - Starting server...
+2017-04-07T00:41:27,348 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - 
+.______      ___       _______   __        ______     ______  __  ___
+|   _  \    /   \     |       \ |  |      /  __  \   /      ||  |/  /
+|  |_)  |  /  ^  \    |  .--.  ||  |     |  |  |  | |  ,----'|  '  /
+|   ___/  /  /_\  \   |  |  |  ||  |     |  |  |  | |  |     |    <
+|  |     /  _____  \  |  '--'  ||  `----.|  `--'  | |  `----.|  .  \
+| _|    /__/     \__\ |_______/ |_______| \______/   \______||__|\__\
+
+2017-04-07T00:41:27,350 [main] ERROR com.cluttered.code.saas.padlock.PadlockServer - Need to specify config yaml as first argument
+2017-04-07T00:42:11,785 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - 
+.______      ___       _______   __        ______     ______  __  ___
+|   _  \    /   \     |       \ |  |      /  __  \   /      ||  |/  /
+|  |_)  |  /  ^  \    |  .--.  ||  |     |  |  |  | |  ,----'|  '  /
+|   ___/  /  /_\  \   |  |  |  ||  |     |  |  |  | |  |     |    <
+|  |     /  _____  \  |  '--'  ||  `----.|  `--'  | |  `----.|  .  \
+| _|    /__/     \__\ |_______/ |_______| \______/   \______||__|\__\
+
+2017-04-07T00:42:11,786 [main] ERROR com.cluttered.code.saas.padlock.PadlockServer - Need to specify config yaml as first argument
+2017-04-07T00:44:46,019 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - 
+.______      ___       _______   __        ______     ______  __  ___
+|   _  \    /   \     |       \ |  |      /  __  \   /      ||  |/  /
+|  |_)  |  /  ^  \    |  .--.  ||  |     |  |  |  | |  ,----'|  '  /
+|   ___/  /  /_\  \   |  |  |  ||  |     |  |  |  | |  |     |    <
+|  |     /  _____  \  |  '--'  ||  `----.|  `--'  | |  `----.|  .  \
+| _|    /__/     \__\ |_______/ |_______| \______/   \______||__|\__\
+
+2017-04-07T00:44:46,020 [main] ERROR com.cluttered.code.saas.padlock.PadlockServer - Need to specify config yaml as first argument
+2017-04-07T00:45:58,804 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - 
+.______      ___       _______   __        ______     ______  __  ___
+|   _  \    /   \     |       \ |  |      /  __  \   /      ||  |/  /
+|  |_)  |  /  ^  \    |  .--.  ||  |     |  |  |  | |  ,----'|  '  /
+|   ___/  /  /_\  \   |  |  |  ||  |     |  |  |  | |  |     |    <
+|  |     /  _____  \  |  '--'  ||  `----.|  `--'  | |  `----.|  .  \
+| _|    /__/     \__\ |_______/ |_______| \______/   \______||__|\__\
+
+2017-04-07T00:45:58,805 [main] ERROR com.cluttered.code.saas.padlock.PadlockServer - Need to specify config yaml as first argument
+2017-04-07T00:51:26,258 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - 
+.______      ___       _______   __        ______     ______  __  ___
+|   _  \    /   \     |       \ |  |      /  __  \   /      ||  |/  /
+|  |_)  |  /  ^  \    |  .--.  ||  |     |  |  |  | |  ,----'|  '  /
+|   ___/  /  /_\  \   |  |  |  ||  |     |  |  |  | |  |     |    <
+|  |     /  _____  \  |  '--'  ||  `----.|  `--'  | |  `----.|  .  \
+| _|    /__/     \__\ |_______/ |_______| \______/   \______||__|\__\
+
+2017-04-07T00:51:26,264 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - Config: dev.yml
+2017-04-07T00:51:26,354 [main] INFO  ratpack.server.RatpackServer - Starting server...
+2017-04-07T00:51:26,941 [main] WARN  ratpack.server.RatpackServer - Exception raised getting server config (will use default config until reload):
+java.lang.IllegalStateException: Failed to build required config items
+	at ratpack.server.internal.DefaultServerConfigBuilder.extractRequiredConfig(DefaultServerConfigBuilder.java:384) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.internal.DefaultServerConfigBuilder.build(DefaultServerConfigBuilder.java:379) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.ServerConfig.of(ServerConfig.java:115) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.RatpackServerSpec.serverConfig(RatpackServerSpec.java:103) ~[ratpack-core-1.4.4.jar:?]
+	at com.cluttered.code.saas.padlock.PadlockServer.lambda$createRatpackServer$4(PadlockServer.java:49) ~[main/:?]
+	at ratpack.server.internal.RatpackServerDefinition.build(RatpackServerDefinition.java:43) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.internal.DefaultRatpackServer.lambda$buildUserDefinition$4(DefaultRatpackServer.java:190) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.impose.Impositions.impose(Impositions.java:117) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.internal.DefaultRatpackServer.buildUserDefinition(DefaultRatpackServer.java:188) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.internal.DefaultRatpackServer.start(DefaultRatpackServer.java:107) [ratpack-core-1.4.4.jar:?]
+	at com.cluttered.code.saas.padlock.PadlockServer.main(PadlockServer.java:35) [main/:?]
+	Suppressed: java.lang.IllegalStateException: Could not bind config at '/database' to 'com.zaxxer.hikari.HikariConfig'
+		at ratpack.server.internal.DefaultServerConfigBuilder.extractRequiredConfig(DefaultServerConfigBuilder.java:392) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultServerConfigBuilder.build(DefaultServerConfigBuilder.java:379) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.ServerConfig.of(ServerConfig.java:115) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.RatpackServerSpec.serverConfig(RatpackServerSpec.java:103) ~[ratpack-core-1.4.4.jar:?]
+		at com.cluttered.code.saas.padlock.PadlockServer.lambda$createRatpackServer$4(PadlockServer.java:49) ~[main/:?]
+		at ratpack.server.internal.RatpackServerDefinition.build(RatpackServerDefinition.java:43) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultRatpackServer.lambda$buildUserDefinition$4(DefaultRatpackServer.java:190) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.impose.Impositions.impose(Impositions.java:117) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultRatpackServer.buildUserDefinition(DefaultRatpackServer.java:188) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultRatpackServer.start(DefaultRatpackServer.java:107) [ratpack-core-1.4.4.jar:?]
+		at com.cluttered.code.saas.padlock.PadlockServer.main(PadlockServer.java:35) [main/:?]
+	Caused by: java.io.UncheckedIOException: com.fasterxml.jackson.databind.JsonMappingException: org.h2.Driver
+ at [Source: N/A; line: -1, column: -1] (through reference chain: com.zaxxer.hikari.HikariConfig["driverClassName"])
+		at ratpack.util.Exceptions.uncheck(Exceptions.java:52) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.config.internal.DefaultConfigData.getAsConfigObject(DefaultConfigData.java:62) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultServerConfigBuilder.extractRequiredConfig(DefaultServerConfigBuilder.java:390) ~[ratpack-core-1.4.4.jar:?]
+		... 10 more
+	Caused by: com.fasterxml.jackson.databind.JsonMappingException: org.h2.Driver
+ at [Source: N/A; line: -1, column: -1] (through reference chain: com.zaxxer.hikari.HikariConfig["driverClassName"])
+		at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:262) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.SettableBeanProperty._throwAsIOE(SettableBeanProperty.java:537) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.SettableBeanProperty._throwAsIOE(SettableBeanProperty.java:518) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:99) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:260) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:125) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.ObjectMapper._readValue(ObjectMapper.java:3779) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2116) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at ratpack.config.internal.DefaultConfigData.getAsConfigObject(DefaultConfigData.java:59) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultServerConfigBuilder.extractRequiredConfig(DefaultServerConfigBuilder.java:390) ~[ratpack-core-1.4.4.jar:?]
+		... 10 more
+	Caused by: java.lang.ClassNotFoundException: org.h2.Driver
+		at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_121]
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_121]
+		at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[?:1.8.0_121]
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_121]
+		at com.zaxxer.hikari.AbstractHikariConfig.setDriverClassName(AbstractHikariConfig.java:360) ~[HikariCP-2.3.5.jar:?]
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+		at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+		at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:97) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:260) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:125) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.ObjectMapper._readValue(ObjectMapper.java:3779) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2116) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at ratpack.config.internal.DefaultConfigData.getAsConfigObject(DefaultConfigData.java:59) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultServerConfigBuilder.extractRequiredConfig(DefaultServerConfigBuilder.java:390) ~[ratpack-core-1.4.4.jar:?]
+		... 10 more
+2017-04-07T00:51:27,088 [main] INFO  ratpack.server.RatpackServer - Building registry...
+2017-04-07T00:51:27,379 [main] INFO  ratpack.server.RatpackServer - Ratpack started (development) for http://localhost:5050
+2017-04-07T00:52:13,573 [ratpack-shutdown-thread] INFO  ratpack.server.RatpackServer - Stopping server...
+   _______   __        ______     ______  __  ___
+|   _  \    /   \     |       \ |  |      /  __  \   /      ||  |/  /
+|  |_)  |  /  ^  \    |  .--.  ||  |     |  |  |  | |  ,----'|  '  /
+|   ___/  /  /_\  \   |  |  |  ||  |     |  |  |  | |  |     |    <
+|  |     /  _____  \  |  '--'  ||  `----.|  `--'  | |  `----.|  .  \
+| _|    /__/     \__\ |_______/ |_______| \______/   \______||__|\__\
+
+2017-04-07T00:52:08,872 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - Config: ../dev.yml
+2017-04-07T00:52:08,962 [main] INFO  ratpack.server.RatpackServer - Starting server...
+2017-04-07T00:52:09,152 [main] WARN  ratpack.server.RatpackServer - Exception raised getting server config (will use default config until reload):
+java.io.UncheckedIOException: java.nio.file.NoSuchFileException: ../dev.yml
+	at ratpack.util.Exceptions.uncheck(Exceptions.java:52) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.config.internal.ConfigDataLoader.load(ConfigDataLoader.java:46) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.config.internal.DefaultConfigData.<init>(DefaultConfigData.java:42) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.internal.DefaultServerConfigBuilder.build(DefaultServerConfigBuilder.java:378) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.ServerConfig.of(ServerConfig.java:115) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.RatpackServerSpec.serverConfig(RatpackServerSpec.java:103) ~[ratpack-core-1.4.4.jar:?]
+	at com.cluttered.code.saas.padlock.PadlockServer.lambda$createRatpackServer$4(PadlockServer.java:49) ~[main/:?]
+	at ratpack.server.internal.RatpackServerDefinition.build(RatpackServerDefinition.java:43) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.internal.DefaultRatpackServer.lambda$buildUserDefinition$4(DefaultRatpackServer.java:190) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.impose.Impositions.impose(Impositions.java:117) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.internal.DefaultRatpackServer.buildUserDefinition(DefaultRatpackServer.java:188) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.internal.DefaultRatpackServer.start(DefaultRatpackServer.java:107) [ratpack-core-1.4.4.jar:?]
+	at com.cluttered.code.saas.padlock.PadlockServer.main(PadlockServer.java:35) [main/:?]
+Caused by: java.nio.file.NoSuchFileException: ../dev.yml
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:1.8.0_121]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:1.8.0_121]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:1.8.0_121]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:1.8.0_121]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_121]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_121]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384) ~[?:1.8.0_121]
+	at java.nio.file.Files.newInputStream(Files.java:152) ~[?:1.8.0_121]
+	at ratpack.util.internal.Paths2$PathByteSource.openStream(Paths2.java:53) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.config.internal.source.JacksonConfigSource.loadConfigData(JacksonConfigSource.java:50) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.config.internal.source.ErrorHandlingConfigSource.loadConfigData(ErrorHandlingConfigSource.java:40) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.config.internal.ConfigDataLoader.load(ConfigDataLoader.java:43) ~[ratpack-core-1.4.4.jar:?]
+	... 11 more
+2017-04-07T00:52:09,293 [main] INFO  ratpack.server.RatpackServer - Building registry...
+2017-04-07T00:53:29,474 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - 
+.______      ___       _______   __        ______     ______  __  ___
+|   _  \    /   \     |       \ |  |      /  __  \   /      ||  |/  /
+|  |_)  |  /  ^  \    |  .--.  ||  |     |  |  |  | |  ,----'|  '  /
+|   ___/  /  /_\  \   |  |  |  ||  |     |  |  |  | |  |     |    <
+|  |     /  _____  \  |  '--'  ||  `----.|  `--'  | |  `----.|  .  \
+| _|    /__/     \__\ |_______/ |_______| \______/   \______||__|\__\
+
+2017-04-07T00:53:29,479 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - Config: dev.yml
+2017-04-07T00:53:29,574 [main] INFO  ratpack.server.RatpackServer - Starting server...
+2017-04-07T00:53:30,180 [main] WARN  ratpack.server.RatpackServer - Exception raised getting server config (will use default config until reload):
+java.lang.IllegalStateException: Failed to build required config items
+	at ratpack.server.internal.DefaultServerConfigBuilder.extractRequiredConfig(DefaultServerConfigBuilder.java:384) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.internal.DefaultServerConfigBuilder.build(DefaultServerConfigBuilder.java:379) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.ServerConfig.of(ServerConfig.java:115) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.RatpackServerSpec.serverConfig(RatpackServerSpec.java:103) ~[ratpack-core-1.4.4.jar:?]
+	at com.cluttered.code.saas.padlock.PadlockServer.lambda$createRatpackServer$4(PadlockServer.java:49) ~[main/:?]
+	at ratpack.server.internal.RatpackServerDefinition.build(RatpackServerDefinition.java:43) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.internal.DefaultRatpackServer.lambda$buildUserDefinition$4(DefaultRatpackServer.java:190) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.impose.Impositions.impose(Impositions.java:117) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.internal.DefaultRatpackServer.buildUserDefinition(DefaultRatpackServer.java:188) ~[ratpack-core-1.4.4.jar:?]
+	at ratpack.server.internal.DefaultRatpackServer.start(DefaultRatpackServer.java:107) [ratpack-core-1.4.4.jar:?]
+	at com.cluttered.code.saas.padlock.PadlockServer.main(PadlockServer.java:35) [main/:?]
+	Suppressed: java.lang.IllegalStateException: Could not bind config at '/database' to 'com.zaxxer.hikari.HikariConfig'
+		at ratpack.server.internal.DefaultServerConfigBuilder.extractRequiredConfig(DefaultServerConfigBuilder.java:392) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultServerConfigBuilder.build(DefaultServerConfigBuilder.java:379) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.ServerConfig.of(ServerConfig.java:115) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.RatpackServerSpec.serverConfig(RatpackServerSpec.java:103) ~[ratpack-core-1.4.4.jar:?]
+		at com.cluttered.code.saas.padlock.PadlockServer.lambda$createRatpackServer$4(PadlockServer.java:49) ~[main/:?]
+		at ratpack.server.internal.RatpackServerDefinition.build(RatpackServerDefinition.java:43) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultRatpackServer.lambda$buildUserDefinition$4(DefaultRatpackServer.java:190) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.impose.Impositions.impose(Impositions.java:117) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultRatpackServer.buildUserDefinition(DefaultRatpackServer.java:188) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultRatpackServer.start(DefaultRatpackServer.java:107) [ratpack-core-1.4.4.jar:?]
+		at com.cluttered.code.saas.padlock.PadlockServer.main(PadlockServer.java:35) [main/:?]
+	Caused by: java.io.UncheckedIOException: com.fasterxml.jackson.databind.JsonMappingException: org.h2.Driver
+ at [Source: N/A; line: -1, column: -1] (through reference chain: com.zaxxer.hikari.HikariConfig["driverClassName"])
+		at ratpack.util.Exceptions.uncheck(Exceptions.java:52) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.config.internal.DefaultConfigData.getAsConfigObject(DefaultConfigData.java:62) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultServerConfigBuilder.extractRequiredConfig(DefaultServerConfigBuilder.java:390) ~[ratpack-core-1.4.4.jar:?]
+		... 10 more
+	Caused by: com.fasterxml.jackson.databind.JsonMappingException: org.h2.Driver
+ at [Source: N/A; line: -1, column: -1] (through reference chain: com.zaxxer.hikari.HikariConfig["driverClassName"])
+		at com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:262) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.SettableBeanProperty._throwAsIOE(SettableBeanProperty.java:537) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.SettableBeanProperty._throwAsIOE(SettableBeanProperty.java:518) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:99) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:260) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:125) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.ObjectMapper._readValue(ObjectMapper.java:3779) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2116) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at ratpack.config.internal.DefaultConfigData.getAsConfigObject(DefaultConfigData.java:59) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultServerConfigBuilder.extractRequiredConfig(DefaultServerConfigBuilder.java:390) ~[ratpack-core-1.4.4.jar:?]
+		... 10 more
+	Caused by: java.lang.ClassNotFoundException: org.h2.Driver
+		at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_121]
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_121]
+		at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[?:1.8.0_121]
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_121]
+		at com.zaxxer.hikari.AbstractHikariConfig.setDriverClassName(AbstractHikariConfig.java:360) ~[HikariCP-2.3.5.jar:?]
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+		at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+		at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:97) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:260) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:125) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.ObjectMapper._readValue(ObjectMapper.java:3779) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2116) ~[jackson-databind-2.7.5.jar:2.7.5]
+		at ratpack.config.internal.DefaultConfigData.getAsConfigObject(DefaultConfigData.java:59) ~[ratpack-core-1.4.4.jar:?]
+		at ratpack.server.internal.DefaultServerConfigBuilder.extractRequiredConfig(DefaultServerConfigBuilder.java:390) ~[ratpack-core-1.4.4.jar:?]
+		... 10 more
+2017-04-07T00:53:30,312 [main] INFO  ratpack.server.RatpackServer - Building registry...
+2017-04-07T00:53:30,566 [main] INFO  ratpack.server.RatpackServer - Ratpack started (development) for http://localhost:5050
+2017-04-07T00:54:12,943 [ratpack-shutdown-thread] INFO  ratpack.server.RatpackServer - Stopping server...
+   _______   __        ______     ______  __  ___
+|   _  \    /   \     |       \ |  |      /  __  \   /      ||  |/  /
+|  |_)  |  /  ^  \    |  .--.  ||  |     |  |  |  | |  ,----'|  '  /
+|   ___/  /  /_\  \   |  |  |  ||  |     |  |  |  | |  |     |    <
+|  |     /  _____  \  |  '--'  ||  `----.|  `--'  | |  `----.|  .  \
+| _|    /__/     \__\ |_______/ |_______| \______/   \______||__|\__\
+
+2017-04-07T00:54:05,730 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - Config: dev.yml
+2017-04-07T00:54:05,829 [main] INFO  ratpack.server.RatpackServer - Starting server...
+2017-04-07T00:54:06,547 [main] INFO  ratpack.server.RatpackServer - Building registry...
+2017-04-07T00:54:07,020 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-0 is starting.
+2017-04-07T00:54:07,335 [main] INFO  ratpack.server.RatpackServer - Initializing 5 services...
+2017-04-07T00:54:07,346 [ratpack-compute-1-3] INFO  com.cluttered.code.saas.padlock.service.LoggingService - setting log level to 'INFO'
+2017-04-07T00:54:07,797 [ratpack-compute-1-4] INFO  liquibase - Successfully acquired change log lock
+2017-04-07T00:54:08,581 [ratpack-compute-1-4] INFO  liquibase - Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2017-04-07T00:54:08,584 [ratpack-compute-1-4] INFO  liquibase - Reading from PUBLIC.DATABASECHANGELOG
+2017-04-07T00:54:08,597 [ratpack-compute-1-4] INFO  liquibase - migrations.xml: migrations.xml::1::david.clutter: Table users created
+2017-04-07T00:54:08,597 [ratpack-compute-1-4] INFO  liquibase - migrations.xml: migrations.xml::1::david.clutter: ChangeSet migrations.xml::1::david.clutter ran successfully in 5ms
+2017-04-07T00:54:08,604 [ratpack-compute-1-4] INFO  liquibase - migrations.xml: migrations.xml::2::david.clutter: Table passwords created
+2017-04-07T00:54:08,604 [ratpack-compute-1-4] INFO  liquibase - migrations.xml: migrations.xml::2::david.clutter: ChangeSet migrations.xml::2::david.clutter ran successfully in 1ms
+2017-04-07T00:54:08,607 [ratpack-compute-1-4] INFO  liquibase - Successfully released change log lock
+2017-04-07T00:54:31,419 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - 
+.______      ___       _______   __        ______     ______  __  ___
+|   _  \    /   \     |       \ |  |      /  __  \   /      ||  |/  /
+|  |_)  |  /  ^  \    |  .--.  ||  |     |  |  |  | |  ,----'|  '  /
+|   ___/  /  /_\  \   |  |  |  ||  |     |  |  |  | |  |     |    <
+|  |     /  _____  \  |  '--'  ||  `----.|  `--'  | |  `----.|  .  \
+| _|    /__/     \__\ |_______/ |_______| \______/   \______||__|\__\
+
+2017-04-07T00:54:31,423 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - Config: dev.yml
+2017-04-07T00:54:31,509 [main] INFO  ratpack.server.RatpackServer - Starting server...
+2017-04-07T00:54:32,210 [main] INFO  ratpack.server.RatpackServer - Building registry...
+2017-04-07T00:54:32,673 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-0 is starting.
+2017-04-07T00:54:32,972 [main] INFO  ratpack.server.RatpackServer - Initializing 5 services...
+2017-04-07T00:54:32,982 [ratpack-compute-1-3] INFO  com.cluttered.code.saas.padlock.service.LoggingService - setting log level to 'INFO'
+2017-04-07T00:54:33,414 [ratpack-compute-1-4] INFO  liquibase - Successfully acquired change log lock
+2017-04-07T00:54:34,128 [ratpack-compute-1-4] INFO  liquibase - Reading from PUBLIC.DATABASECHANGELOG
+2017-04-07T00:54:34,136 [ratpack-compute-1-4] INFO  liquibase - Successfully released change log lock
+2017-04-07T00:54:34,182 [main] INFO  ratpack.server.RatpackServer - Ratpack started (development) for http://localhost:5050
+2017-04-07T00:58:24,239 [ratpack-shutdown-thread] INFO  ratpack.server.RatpackServer - Stopping server...
+2017-04-07T00:58:24,241 [ratpack-shutdown-thread] INFO  ratpack.server.RatpackServer - Stopping 5 services...
+2017-04-07T01:08:41,038 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - 
+.______      ___       _______   __        ______     ______  __  ___
+|   _  \    /   \     |       \ |  |      /  __  \   /      ||  |/  /
+|  |_)  |  /  ^  \    |  .--.  ||  |     |  |  |  | |  ,----'|  '  /
+|   ___/  /  /_\  \   |  |  |  ||  |     |  |  |  | |  |     |    <
+|  |     /  _____  \  |  '--'  ||  `----.|  `--'  | |  `----.|  .  \
+| _|    /__/     \__\ |_______/ |_______| \______/   \______||__|\__\
+
+2017-04-07T01:08:41,043 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - Config: dev.yml
+2017-04-07T01:08:41,128 [main] INFO  ratpack.server.RatpackServer - Starting server...
+2017-04-07T01:08:41,810 [main] INFO  ratpack.server.RatpackServer - Building registry...
+2017-04-07T01:08:42,248 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-0 is starting.
+2017-04-07T01:08:42,584 [main] INFO  ratpack.server.RatpackServer - Initializing 5 services...
+2017-04-07T01:08:42,596 [ratpack-compute-1-3] INFO  com.cluttered.code.saas.padlock.service.LoggingService - setting log level to 'INFO'
+2017-04-07T01:08:43,004 [ratpack-compute-1-4] INFO  liquibase - Successfully acquired change log lock
+2017-04-07T01:08:43,636 [ratpack-compute-1-4] INFO  liquibase - Reading from PUBLIC.DATABASECHANGELOG
+2017-04-07T01:08:43,644 [ratpack-compute-1-4] INFO  liquibase - Successfully released change log lock
+2017-04-07T01:08:43,696 [main] INFO  ratpack.server.RatpackServer - Ratpack started (development) for http://localhost:5050
+2017-04-07T01:09:25,634 [ratpack-shutdown-thread] INFO  ratpack.server.RatpackServer - Stopping server...
+2017-04-07T01:09:25,635 [ratpack-shutdown-thread] INFO  ratpack.server.RatpackServer - Stopping 5 services...
+2017-04-07T01:15:03,331 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - 
+.______      ___       _______   __        ______     ______  __  ___
+|   _  \    /   \     |       \ |  |      /  __  \   /      ||  |/  /
+|  |_)  |  /  ^  \    |  .--.  ||  |     |  |  |  | |  ,----'|  '  /
+|   ___/  /  /_\  \   |  |  |  ||  |     |  |  |  | |  |     |    <
+|  |     /  _____  \  |  '--'  ||  `----.|  `--'  | |  `----.|  .  \
+| _|    /__/     \__\ |_______/ |_______| \______/   \______||__|\__\
+
+2017-04-07T01:15:03,337 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - Config: dev.yml
+2017-04-07T01:15:03,421 [main] INFO  ratpack.server.RatpackServer - Starting server...
+2017-04-07T01:15:04,081 [main] INFO  ratpack.server.RatpackServer - Building registry...
+2017-04-07T01:15:04,523 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-0 is starting.
+2017-04-07T01:15:04,854 [main] INFO  ratpack.server.RatpackServer - Initializing 5 services...
+2017-04-07T01:15:04,864 [ratpack-compute-1-3] INFO  com.cluttered.code.saas.padlock.service.LoggingService - setting log level to 'INFO'
+2017-04-07T01:15:05,291 [ratpack-compute-1-4] INFO  liquibase - Successfully acquired change log lock
+2017-04-07T01:15:05,896 [ratpack-compute-1-4] INFO  liquibase - Reading from PUBLIC.DATABASECHANGELOG
+2017-04-07T01:15:05,904 [ratpack-compute-1-4] INFO  liquibase - Successfully released change log lock
+2017-04-07T01:15:05,948 [main] INFO  ratpack.server.RatpackServer - Ratpack started (development) for http://localhost:5050
+2017-04-07T01:15:29,378 [ratpack-compute-1-7] ERROR ratpack.error.internal.DefaultDevelopmentErrorHandler - 404 client error for request to /
+2017-04-07T01:15:29,483 [ratpack-compute-1-7] INFO  ratpack.request - 127.0.0.1 - - [07/Apr/2017:01:15:29 -0600] "GET / HTTP/1.1" 404 - id=0941075a-e8ae-4de9-319c-d2f09747fe93
+2017-04-07T01:15:30,081 [ratpack-compute-1-7] ERROR ratpack.error.internal.DefaultDevelopmentErrorHandler - 404 client error for request to /favicon.ico
+2017-04-07T01:15:30,090 [ratpack-compute-1-7] INFO  ratpack.request - 127.0.0.1 - - [07/Apr/2017:01:15:30 -0600] "GET /favicon.ico HTTP/1.1" 404 - id=423e0566-6287-9c54-dd41-b1bf289c26a9
+2017-04-07T01:15:46,109 [ratpack-compute-1-7] WARN  com.cluttered.code.saas.padlock.service.UserService - listing all users
+2017-04-07T01:15:46,146 [ratpack-compute-1-7] INFO  ratpack.request - 127.0.0.1 - - [07/Apr/2017:01:15:46 -0600] "GET /users HTTP/1.1" 200 - id=88649cac-f8ad-7039-1f9c-34fdb8266bdd
+2017-04-07T01:17:06,721 [ratpack-shutdown-thread] INFO  ratpack.server.RatpackServer - Stopping server...
+2017-04-07T01:17:06,722 [ratpack-shutdown-thread] INFO  ratpack.server.RatpackServer - Stopping 5 services...
+2017-04-07T02:43:39,773 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - 
+.______      ___       _______   __        ______     ______  __  ___
+|   _  \    /   \     |       \ |  |      /  __  \   /      ||  |/  /
+|  |_)  |  /  ^  \    |  .--.  ||  |     |  |  |  | |  ,----'|  '  /
+|   ___/  /  /_\  \   |  |  |  ||  |     |  |  |  | |  |     |    <
+|  |     /  _____  \  |  '--'  ||  `----.|  `--'  | |  `----.|  .  \
+| _|    /__/     \__\ |_______/ |_______| \______/   \______||__|\__\
+
+2017-04-07T02:43:39,778 [main] INFO  com.cluttered.code.saas.padlock.PadlockServer - Config: dev.yml
+2017-04-07T02:43:39,864 [main] INFO  ratpack.server.RatpackServer - Starting server...
+2017-04-07T02:43:40,521 [main] INFO  ratpack.server.RatpackServer - Building registry...
+2017-04-07T02:43:40,959 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-0 is starting.
+2017-04-07T02:43:41,252 [main] INFO  ratpack.server.RatpackServer - Initializing 5 services...
+2017-04-07T02:43:41,263 [ratpack-compute-1-3] INFO  com.cluttered.code.saas.padlock.service.LoggingService - setting log level to 'INFO'
+2017-04-07T02:43:41,712 [ratpack-compute-1-4] INFO  liquibase - Successfully acquired change log lock
+2017-04-07T02:43:42,550 [ratpack-compute-1-4] INFO  liquibase - Reading from PUBLIC.DATABASECHANGELOG
+2017-04-07T02:43:42,560 [ratpack-compute-1-4] INFO  liquibase - Successfully released change log lock
+2017-04-07T02:43:42,606 [main] INFO  ratpack.server.RatpackServer - Ratpack started (development) for http://localhost:5050
+2017-04-07T02:44:04,052 [ratpack-shutdown-thread] INFO  ratpack.server.RatpackServer - Stopping server...
+2017-04-07T02:44:04,052 [ratpack-shutdown-thread] INFO  ratpack.server.RatpackServer - Stopping 5 services...
